@@ -13,17 +13,20 @@ class MyComponent extends Component {
     
     
     render(){
-        return <div>
+        return(
+        
+        <div>
             {
                 this.state.visible === true ?
                 <p>visible</p>
                 :
                 <p>not visible</p>
             }
-            <button onClick = {this.handleClick}click</button>
+            <button onClick = {this.handleClick}>click</button>
                 
                 
-            </div>;
+            </div>
+        );
         
     }
     
